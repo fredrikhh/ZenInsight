@@ -5,8 +5,10 @@ import android.hardware.Camera;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.speech.tts.TextToSpeech;
 
 public class ZenInsight extends Activity {
     //defining states
@@ -21,6 +23,10 @@ public class ZenInsight extends Activity {
     private TextView mText = null;
     private View mPrevButton = null;
     private View mNextButton = null;
+    private ImageButton mSoundButton = null;
+    private TextToSpeech mTts = null;
+    private volatile boolean mTtsReady = false;
+    private boolean mSoundEnabled = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +53,21 @@ public class ZenInsight extends Activity {
 		    @Override
 		    public void onClick(View view) {
 			    switchStep(mCurrentStep+1);
+		    }
+	    });        
+
+      mSoundButton = (ImageButton) findViewById(R.id.sound_button);
+      mSoundButton.setOnClickListener(new View.OnClickListener() {
+		    @Override
+		    public void onClick(View view) {
+			    mSoundEnabled = !mSoundEnabled;
+          if (mSoundEnabled) {
+            mSoundButton.setImageResource(R.drawable.ic_action_volume_on);
+            enableSound();
+          } else {
+            mSoundButton.setImageResource(R.drawable.ic_action_volume_muted);
+            disableSound();
+          }
 		    }
 	    });        
     }
@@ -77,18 +98,49 @@ public class ZenInsight extends Activity {
 			mCurrentCam.stopPreview();
 			mCurrentCam.release();
     	}
-		View surface = mViewfinder.findViewWithTag(mViewfinder);
-		mViewfinder.removeView(surface);
+		  View surface = mViewfinder.findViewWithTag(mViewfinder);
+		  mViewfinder.removeView(surface);
+    }
+
+    private void enableSound() {
+      mTts = new TextToSpeech(this, new TextToSpeech.OnInitListener() { 
+        public void onInit(int status) {
+          mTtsReady = status == TextToSpeech.SUCCESS;
+          speakCurrentText();
+        }
+      });
+    }
+
+    private void disableSound() {
+      mTtsReady = false;
+      if (mTts != null) {
+        mTts.shutdown();
+        mTts = null;
+      }
+    }
+
+    private void speakCurrentText() {
+      if (mSoundEnabled && mTts != null && mTtsReady) {
+        CharSequence text = mText.getText();
+        if (text != null)
+          mTts.speak(text.toString(), TextToSpeech.QUEUE_FLUSH, null);
+      }
     }
 
     public void onPause() {
     	releaseCamera();
+      if (mSoundEnabled) {
+        disableSound();
+      }
     	super.onPause();
     }
 
     public void onResume() {
     	super.onResume();
     	mCurrentCam = attachCamera(mViewfinder, mCurrentCamId);
+      if (mSoundEnabled) {
+        enableSound();
+      }
     }
     
     private void switchStep(int newStep) {
@@ -114,6 +166,7 @@ public class ZenInsight extends Activity {
         } else {
           mNextButton.setVisibility(View.VISIBLE);
         }
+        speakCurrentText();
     	}
     }
 }
