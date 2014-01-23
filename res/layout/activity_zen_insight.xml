@@ -43,23 +43,23 @@
             android:gravity="bottom"
             android:orientation="horizontal" >
 
-            <Button
+            <ImageButton
                 android:id="@+id/prev_button"
                 style="?buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="left|center_vertical"
-                android:text="@string/prev_button" />
+                android:src="@drawable/ic_action_back" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/next_button"
                 style="?buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="right|center_vertical"
-                android:text="@string/next_button" />
+                android:src="@drawable/ic_action_forward" />
         </LinearLayout>
     </LinearLayout>
 

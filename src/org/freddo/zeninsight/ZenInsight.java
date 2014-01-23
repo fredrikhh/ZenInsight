@@ -19,34 +19,36 @@ public class ZenInsight extends Activity {
     private int mCurrentStep = 0;
     private FrameLayout mViewfinder = null;
     private TextView mText = null;
+    private View mPrevButton = null;
+    private View mNextButton = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+      super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_zen_insight);
+      setContentView(R.layout.activity_zen_insight);
 
-        //final View controlsView = findViewById(R.id.fullscreen_content_controls);
-        final View contentView = findViewById(R.id.fullscreen_content);
-        
-        mViewfinder = (FrameLayout) contentView.findViewById(R.id.viewfinder);
-        mText = (TextView) contentView.findViewById(R.id.lead_text);
+      final View contentView = findViewById(R.id.fullscreen_content);
+      
+      mViewfinder = (FrameLayout) contentView.findViewById(R.id.viewfinder);
+      mText = (TextView) contentView.findViewById(R.id.lead_text);
 
-        View prevButton = findViewById(R.id.prev_button);
-        prevButton.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				switchStep(mCurrentStep-1);
-			}
-		});
-        
-        View nextButton = findViewById(R.id.next_button);
-        nextButton.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View view) {
-				switchStep(mCurrentStep+1);
-			}
-		});        
+      mPrevButton = findViewById(R.id.prev_button);
+      mPrevButton.setOnClickListener(new View.OnClickListener() {
+		    @Override
+		    public void onClick(View view) {
+			    switchStep(mCurrentStep-1);
+		    }
+	    });
+      mPrevButton.setVisibility(View.INVISIBLE);
+      
+      mNextButton = findViewById(R.id.next_button);
+      mNextButton.setOnClickListener(new View.OnClickListener() {
+		    @Override
+		    public void onClick(View view) {
+			    switchStep(mCurrentStep+1);
+		    }
+	    });        
     }
 
     private Camera attachCamera(FrameLayout holder, int camera) {
@@ -96,10 +98,22 @@ public class ZenInsight extends Activity {
 
     		if (mCurrentCamId != newCamId) {
     			releaseCamera();
-				mCurrentCamId = newCamId;
-				mCurrentCam = attachCamera(mViewfinder, mCurrentCamId);
-			}
-			mCurrentStep = newStep;
+				  mCurrentCamId = newCamId;
+				  mCurrentCam = attachCamera(mViewfinder, mCurrentCamId);
+			  }
+			  mCurrentStep = newStep;
+        
+        //manage nav-buttons
+        if (newStep == 0) {
+          mPrevButton.setVisibility(View.INVISIBLE);
+        } else {
+          mPrevButton.setVisibility(View.VISIBLE);
+        }
+        if (newStep == sCamSteps.length-1) {
+          mNextButton.setVisibility(View.INVISIBLE);
+        } else {
+          mNextButton.setVisibility(View.VISIBLE);
+        }
     	}
     }
 }
