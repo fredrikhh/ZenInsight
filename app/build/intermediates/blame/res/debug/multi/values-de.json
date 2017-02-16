@@ -1,0 +1,159 @@
+[
+    {
+        "outputFile": "/home/freddo/StudioProjects/ZenInsight/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 47,
+                    "endOffset": 98
+                },
+                "from": {
+                    "file": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/values-de/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 47,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 103,
+                    "endColumn": 162,
+                    "endOffset": 261
+                },
+                "from": {
+                    "file": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/values-de/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 162,
+                        "endOffset": 262
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 266,
+                    "endColumn": 133,
+                    "endOffset": 395
+                },
+                "from": {
+                    "file": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/values-de/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 267,
+                        "endColumn": 133,
+                        "endOffset": 396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 400,
+                    "endColumn": 84,
+                    "endOffset": 480
+                },
+                "from": {
+                    "file": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/values-de/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 401,
+                        "endColumn": 84,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 485,
+                    "endColumn": 211,
+                    "endOffset": 692
+                },
+                "from": {
+                    "file": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/values-de/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 486,
+                        "endColumn": 211,
+                        "endOffset": 693
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 697,
+                    "endColumn": 165,
+                    "endOffset": 858
+                },
+                "from": {
+                    "file": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/values-de/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 698,
+                        "endColumn": 165,
+                        "endOffset": 859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 863,
+                    "endColumn": 195,
+                    "endOffset": 1054
+                },
+                "from": {
+                    "file": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/values-de/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 864,
+                        "endColumn": 195,
+                        "endOffset": 1055
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1059,
+                    "endColumn": 83,
+                    "endOffset": 1138
+                },
+                "from": {
+                    "file": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/values-de/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1060,
+                        "endColumn": 83,
+                        "endOffset": 1139
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/freddo/StudioProjects/ZenInsight/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_volume_muted.png",
+        "source": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/drawable-xxhdpi/ic_action_volume_muted.png"
+    },
+    {
+        "merged": "/home/freddo/StudioProjects/ZenInsight/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_back.png",
+        "source": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/drawable-xxhdpi/ic_action_back.png"
+    },
+    {
+        "merged": "/home/freddo/StudioProjects/ZenInsight/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_volume_on.png",
+        "source": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/drawable-xxhdpi/ic_action_volume_on.png"
+    },
+    {
+        "merged": "/home/freddo/StudioProjects/ZenInsight/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/freddo/StudioProjects/ZenInsight/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_forward.png",
+        "source": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/drawable-xxhdpi/ic_action_forward.png"
+    }
+]

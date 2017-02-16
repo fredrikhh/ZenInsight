@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_overlay">#66000000</color>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable>
+    <string name="app_name">ZenInsight</string>
+    <string name="step0text">Welcome! We will try to demonstrate different views of yourself and the world, and why it\'s important to consider these.</string>
+    <string name="step1text">This is how you see yourself, how you want to present yourself to others or how others see you.</string>
+    <string name="step2text">This is what you see, how you are to yourself.</string>
+    <string name="step3text">When you see yourself or when you pay attention to how others see you, your mind is mostly turned inward. Suddenly your mind is a barrier to directly experiencing the world.</string>
+    <string name="step4text">When you are yourself, you are free, open, a space for the world. Sights, sounds, tastes, smells and touches happen within you.</string>
+    <string name="step5text">If you pay attention to your mind when you\'re interacting with people and when you\'re thinking and not thinking, you will see what a difference this makes.</string>
+    <string name="step6text">Thank you for participating in this exercise!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+</resources>

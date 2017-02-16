@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Självinsikt</string>
+    <string name="step0text">Välkommen! Vi ska tillsammans utforska ett alternativt synsätt på dig själv och världen, samt varför detta är viktigt.</string>
+    <string name="step1text">Så här ser du dig själv, så här ser andra dig och när du tänker på hur du ser ut inför andra är det denna bilden du får.</string>
+    <string name="step2text">Detta är vad du ser, det är så här du ser ut för dig själv - inifrån och ut.</string>
+    <string name="step3text">När du ser dig själv eller när du tänker på hur du ser ut för andra, så vänds ditt sinne inåt. Plötsligt är ditt sinne ett hinder för en omedelbar upplevelse av omvärlden.</string>
+    <string name="step4text">När du är dig själv så är du fri, öppen, ett utrymme för världen. Allt händer i utrymmet du är - syner, ljud, smaker, lukter och känslointryck.</string>
+    <string name="step5text">Lägg märke till hur ditt sinne skiftar när du interagerar med människor och när du tänker respektive inte tänker. Snabbt förstår du vilken skillnad det är och hur viktigt detta perspektivet är för ett balanserat sinne.</string>
+    <string name="step6text">Tack för att du deltog i övningen!</string>
+</resources>
