@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/freddo/Development/Android/ZenInsight/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/home/freddo/Development/Android/ZenInsight/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0_d34e1f89cc6bffa76f59e2af448c1b18779b807e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/freddo/Development/Android/ZenInsight/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/home/freddo/Development/Android/ZenInsight/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-20.0.0_00a324494f59f4ecacd413b0816d3470349c432c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/freddo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/home/freddo/Development/Android/ZenInsight/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0_eb5f3f885426c2a7b437f8bd880543d790e76901.jar" />
+    </item>
+
+</items>
