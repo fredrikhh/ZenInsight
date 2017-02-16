@@ -43,6 +43,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class string {
         public static final int app_name=0x7f040000;
+        public static final int bigtext=0x7f040008;
         public static final int step0text=0x7f040001;
         public static final int step1text=0x7f040002;
         public static final int step2text=0x7f040003;
@@ -50,6 +51,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int step4text=0x7f040005;
         public static final int step5text=0x7f040006;
         public static final int step6text=0x7f040007;
+        public static final int step7text=0x7f040009;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

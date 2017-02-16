@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "org.freddo.zeninsight"
-        minSdkVersion 8
+        minSdkVersion 9
         targetSdkVersion 20
     }
 

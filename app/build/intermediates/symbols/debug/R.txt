@@ -16,6 +16,7 @@ int id sound_button 0x7f070005
 int id viewfinder 0x7f070001
 int layout activity_zen_insight 0x7f030000
 int string app_name 0x7f040000
+int string bigtext 0x7f040008
 int string step0text 0x7f040001
 int string step1text 0x7f040002
 int string step2text 0x7f040003
@@ -23,6 +24,7 @@ int string step3text 0x7f040004
 int string step4text 0x7f040005
 int string step5text 0x7f040006
 int string step6text 0x7f040007
+int string step7text 0x7f040009
 int style AppBaseTheme 0x7f050000
 int style AppTheme 0x7f050003
 int style ButtonBar 0x7f050004

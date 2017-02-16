@@ -9,5 +9,7 @@
     <string name="step4text">When you are yourself, you are free, open, a space for the world. Sights, sounds, tastes, smells and touches happen within you.</string>
     <string name="step5text">If you pay attention to your mind when you\'re interacting with people and when you\'re thinking and not thinking, you will see what a difference this makes.</string>
     <string name="step6text">Thank you for participating in this exercise!</string>
-    
+    <string name="step7text"></string>
+    <string name="bigtext">\n\n\n\n\nFor more information and exercises, look up the following resources:\n\n* Douglas Harding\'s work, for example at headless.org\n* Eckhart Tolle\n* Zen Buddhism and for example the Heart Sutra</string>
+
 </resources>

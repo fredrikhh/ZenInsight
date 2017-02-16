@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/freddo/Development/Android/ZenInsight/app/build/intermediates/res/merged/debug/layout/activity_zen_insight.xml",
+        "source": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/layout/activity_zen_insight.xml"
+    },
+    {
         "merged": "/home/freddo/StudioProjects/ZenInsight/app/build/intermediates/res/merged/debug/layout/activity_zen_insight.xml",
         "source": "/home/freddo/StudioProjects/ZenInsight/app/src/main/res/layout/activity_zen_insight.xml"
     }

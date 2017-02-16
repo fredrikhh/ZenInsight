@@ -3,6 +3,7 @@
     <color name="black_overlay">#66000000</color>
     <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable>
     <string name="app_name">ZenInsight</string>
+    <string name="bigtext">\n\n\n\n\nFor more information and exercises, look up the following resources:\n\n* Douglas Harding\'s work, for example at headless.org\n* Eckhart Tolle\n* Zen Buddhism and for example the Heart Sutra</string>
     <string name="step0text">Welcome! We will try to demonstrate different views of yourself and the world, and why it\'s important to consider these.</string>
     <string name="step1text">This is how you see yourself, how you want to present yourself to others or how others see you.</string>
     <string name="step2text">This is what you see, how you are to yourself.</string>
@@ -10,6 +11,7 @@
     <string name="step4text">When you are yourself, you are free, open, a space for the world. Sights, sounds, tastes, smells and touches happen within you.</string>
     <string name="step5text">If you pay attention to your mind when you\'re interacting with people and when you\'re thinking and not thinking, you will see what a difference this makes.</string>
     <string name="step6text">Thank you for participating in this exercise!</string>
+    <string name="step7text"/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in

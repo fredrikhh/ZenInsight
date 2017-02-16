@@ -1,5 +1,322 @@
 [
     {
+        "outputFile": "/home/freddo/Development/Android/ZenInsight/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 49,
+                        "endOffset": 62
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 282,
+                    "endColumn": 47,
+                    "endOffset": 325
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 47,
+                        "endOffset": 99
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 330,
+                    "endColumn": 237,
+                    "endOffset": 563
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1180,
+                        "endColumn": 237,
+                        "endOffset": 1413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 568,
+                    "endColumn": 159,
+                    "endOffset": 723
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 159,
+                        "endOffset": 259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 728,
+                    "endColumn": 133,
+                    "endOffset": 857
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 264,
+                        "endColumn": 133,
+                        "endOffset": 393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 862,
+                    "endColumn": 84,
+                    "endOffset": 942
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 398,
+                        "endColumn": 84,
+                        "endOffset": 478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 947,
+                    "endColumn": 211,
+                    "endOffset": 1154
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 483,
+                        "endColumn": 211,
+                        "endOffset": 690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1159,
+                    "endColumn": 165,
+                    "endOffset": 1320
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 695,
+                        "endColumn": 165,
+                        "endOffset": 856
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1325,
+                    "endColumn": 195,
+                    "endOffset": 1516
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 861,
+                        "endColumn": 195,
+                        "endOffset": 1052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1521,
+                    "endColumn": 83,
+                    "endOffset": 1600
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1057,
+                        "endColumn": 83,
+                        "endOffset": 1136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1605,
+                    "endColumn": 30,
+                    "endOffset": 1631
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1141,
+                        "endColumn": 38,
+                        "endOffset": 1175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1636,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 1922
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 225,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1927,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 2082
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 549,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2087,
+                    "endLine": 30,
+                    "endColumn": 12,
+                    "endOffset": 2410
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1047,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 1370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2415,
+                    "endColumn": 35,
+                    "endOffset": 2446
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1376,
+                        "endColumn": 36,
+                        "endOffset": 1408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2451,
+                    "endLine": 37,
+                    "endColumn": 12,
+                    "endOffset": 2782
+                },
+                "from": {
+                    "file": "/home/freddo/Development/Android/ZenInsight/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 710,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1041
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/home/freddo/StudioProjects/ZenInsight/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
